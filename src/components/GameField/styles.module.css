@@ -1,0 +1,24 @@
+.field {
+  display: grid;
+  gap: 5px;
+  max-height: 95vh;
+  max-width: 95vw;
+  aspect-ratio: 1;
+}
+
+.cell {
+  aspect-ratio: 1;
+  background-color: bisque;
+}
+
+.p1 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../../assets/imgs/cross.png');
+}
+
+.p2 {
+  background-image: url('../../assets/imgs/circle.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
